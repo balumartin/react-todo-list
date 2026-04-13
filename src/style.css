@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #11232e;
+  color: #86bbd8;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #f6ae2d;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+  color: #86bbd8;
+  margin-bottom: 0.75rem;
+}
+
+h3 {
+  font-size: 1.1rem;
+  color: #86bbd8;
+  opacity: 0.9;
+  margin-bottom: 0.5rem;
+}
+
+.header {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  color: #f6ae2d;
+}
+
+.new-item-form {
+  margin-bottom: 1rem;
+}
+
+.form-row {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 0.5rem;
+}
+
+.form-row label {
+  width: 80%;
+}
+
+.form-row input {
+  width: 100%;
+}
+
+.new-item-form input {
+  padding: 0.4rem 0.6rem;
+  border-radius: 6px;
+  border: 1px solid #33658a;
+  background: #33658a;
+  color: white;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px #86bbd8 inset;
+  -webkit-text-fill-color: #162128;
+}
+
+.new-item-form input:focus {
+  outline: 2px solid #f6ae2d;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.85;
+}
+
+.btn-add {
+  margin: 0 auto;
+  width: 2.5rem;
+  height: 2.5rem;
+  background: #86bbd8;
+  color: #2f4858;
+}
+
+.btn-danger {
+  background: #ec1734c0;
+  color: white;
+}
+
+.btn-warning {
+  background: #f26419;
+  color: white;
+}
+
+.btn-success {
+  background: #0e8a3b;
+  color: white;
+}
+.list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.list li {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 0.5rem;
+  background: #33658a;
+  border-left: 5px solid #f6ae2d;
+  padding: 0.4rem;
+  border-radius: 6px;
+}
+
+.list li label {
+  flex: 1;
+}
+
+.list input[type="checkbox"] {
+  transform: scale(1.5);
+  cursor: pointer;
+}
+
+.list li.completed span {
+  text-decoration: line-through;
+  opacity: 0.6;
+  color: #f6ae2d;
+}
+
+.list li label span {
+  margin-left: 5px;
+}
+
+.edit-form {
+  width: 100%;
+}
+
+.edit-label {
+  display: flex;
+}
+
+.edit-input {
+  flex: 1;
+  padding: 0.3rem 1rem;
+  margin-right: 1rem;
+  border-radius: 6px;
+  border: 1px solid #86bbd8;
+  background: #2f4858;
+  color: rgb(215, 215, 215);
+}
+
+.edit-input:focus {
+  outline: 2px solid #f6ae2d;
+}
