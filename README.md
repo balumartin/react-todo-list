@@ -25,8 +25,22 @@ A simple Todo application built with React to practice state management, compone
 
 ## 📦 Installation
 
+Clone the repository
+
+```bash
+git clone https://github.com/balumartin/react-todo-list
+cd react-todo-list
+```
+
+Install dependencies
+
 ```bash
 npm install
+```
+
+Run the development server
+
+```bash
 npm run dev
 ```
 
